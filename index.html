@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <!--Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Valeriia Proskuriakova | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>VALERIIA PROSKURIAKOVA</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <figure class="photo" style="background-image:url('assets/images/person-working-from-home.svg')"></figure>
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hey there, my name is Valeriia <br>and I am a Front-End Developer,
+          passionate about JavaScript, React, HTML and CSS.
+          I can easily translate your design into CSS layout using all possible technologies:
+          from Floats through Flexbox and to Bootstrap; animate it with JavaScript; or create a brand-new React Web Application.
+          Check out my portfolio below to get to know me better!
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I am finishing the Front-End Development course with HTML5/CSS3/JavaScript and React.
+        Currently, I am building a React application designed to filter the database of employees,
+        select the ones who receive the bonus and the raise, delete and add the employees.
+      </p>
+      <p>
+        While working on the course, I have created several website layouts (static, fluid, responsive, mobile-first)
+        using float, flexbox, grid methodologies. I developed fully functional web applications in JavaScript,
+        containing slides, tabs, timer, product cards, used Babel transpiler, and put them together with a Webpack.
+      </p>
+      <p> 
+        I have experience using XMLHttpRequest and Fetch API.
+        I have also completed 2 courses in UX Design by Google and a Harvard online course ''Introduction to Computer Science", which teaches how to think algorithmically and solve problems efficiently. Languages taught in this course include C, Python, SQL, and JavaScript plus CSS and HTML.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-react.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-sass.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <a href="https://github.com/ValeriiaProskuriakova/Apple-Shop-ES6" target="_blank" class="project-link">
+            <figure class="project-pic" style="background-image:url('assets/images/apple.png')"></figure>
+            <div class="project-description">
+              <h3 class="project-title">Apple shop</h3>
+              <p class="project-details">
+                Landing page built with <span>JavaScript ES6</span>
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-container project-card">
+          <a href="https://github.com/ValeriiaProskuriakova/React-Employee-Register" target="_blank" class="project-link">
+            <figure class="project-pic" style="background-image:url('assets/images/employees.png')"></figure>
+            <div class="project-description">
+              <h3 class="project-title">React App</h3>
+              <p class="project-details">
+                Employees register created with <span>React</span> framework
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-container project-card">
+          <a href="https://github.com/ValeriiaProskuriakova/Uber-clone-on-Bootsrtap-4" target="_blank" class="project-link">
+            <figure class="project-pic" style="background-image:url('assets/images/uber.png')"></figure>
+            <div class="project-description">
+              <h3 class="project-title">Uber Clone</h3>
+              <p class="project-details">
+                Copy of the Uber web pages created with <span>Bootstrap 4</span> layout and <span>SCSS</span>.
+                Gulp tasks used for tracking and transfering SCSS into CSS file
+                and updating the browser with browser-sync.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-container project-card">
+          <a href="https://diary-flex.netlify.app/" target="_blank" class="project-link">
+            <figure class="project-pic" style="background-image:url('assets/images/Retreat.png')"></figure>
+            <div class="project-description">
+              <h3 class="project-title">Online diary</h3>
+              <p class="project-details">
+                Responsive web page based on <span>Flexbox</span> layout for an online diary.
+                Form switcher made with pure CSS
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-container project-card">
+          <a href="https://landing-float.netlify.app/" target="_blank" class="project-link">
+            <figure class="project-pic" style="background-image:url('assets/images/landing.png')"></figure>
+            <div class="project-description">
+              <h3 class="project-title">Landing page</h3>
+              <p class="project-details">
+                Responsive web page based on CSS <span>Float</span> layout.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="project-container project-card">
+          <a href="https://black-jack-valeriia.netlify.app/" target="_blank" class="project-link">
+            <figure class="project-pic" style="background-image:url('assets/images/BlackJack.png')"></figure>
+            <div class="project-description">
+              <h3 class="project-title">Black Jack Light</h3>
+              <p class="project-details">
+                Built on <span>JavaScript</span>, the application generates random cards (numbers where Ace is 11 and Jack, Lady and the King
+                are 10), takes away 20$ if the player has more than 21, and doubles money in case of 21 (Black Jack).
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xzborbpn" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/Valerii76440616" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/valeriia-proskuriakova/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/ValeriiaProskuriakova" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-scroll-up.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <a href="https://twitter.com/Valerii76440616" target="_blank"><img
+         src="assets/images/logo.png"></img></a>
+
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+
+  </body>
+</html>
