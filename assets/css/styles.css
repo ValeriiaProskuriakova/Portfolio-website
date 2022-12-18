@@ -257,8 +257,13 @@ nav ul li {
   font-weight: var(--bold-font);
   font-size: 1.1rem;
 }
+.project-card:hover{
+  transform:translateY(-15px);
+  transition:0.5s;
+}
 .project-container a:hover>.project-description {
   display: flex;
+
 }
 .project-container p {
   padding: 0.4rem;
