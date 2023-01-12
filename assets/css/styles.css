@@ -368,6 +368,11 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
+
+.socicon:hover{
+  width: 2.5rem;
+  height: 2.5rem; 
+}
 /* Social button ends */
 
 /* Scroll to top button */
