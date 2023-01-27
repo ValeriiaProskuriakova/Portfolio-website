@@ -308,37 +308,30 @@ nav ul li {
   font-size: 14px;
 }
 
-.contact-form-container .input-field {
+.contact-form-container .input-field  {
   width: 100%;
   height: 56px;
   border: 3px solid transparent;
-  border-radius: 11px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   outline: none;
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-}
-.contact-form-container .form-control:first-of-type .input-field {
-  background-image: linear-gradient(to right, #fff, #fff), radial-gradient(circle at top left, var(--primary-color),var(--secondary-color));
-}
-.contact-form-container .form-control:nth-of-type(2) .input-field {
-  background-image: linear-gradient(to right, #fff, #fff), radial-gradient(circle at top left, var(--primary-color) 40%,var(--secondary-color));
-}
-.contact-form-container .form-control:last-of-type .input-field {
-  background-image: linear-gradient(to right, #fff, #fff), radial-gradient(circle at top left, var(--primary-color) 60%,var(--secondary-color));
+  padding: 1rem;
+  background: linear-gradient(white, white) padding-box, radial-gradient(circle at top left, var(--primary-color) 60%,var(--secondary-color)) border-box;
+  border-radius: 11px;
+  color: var(--primary-color);
 }
 
+
 .input-field::placeholder {
-  padding: 0.5rem;
   color: var(--primary-color);
+  font-size: 0.875rem;
 }
 
 .submit-btn {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  background-color: #fff;
-  border: 3px solid var(--primary-color);
+  background: linear-gradient(white, white) padding-box, radial-gradient(circle at top left, var(--primary-color) 60%,var(--secondary-color)) border-box;
+  border: 3px solid transparent;
   border-radius: 10px;
   font-size: 1rem;
   font-weight: var(--bold-font);
@@ -363,12 +356,16 @@ nav ul li {
   right: 1%;
   bottom: 50%;
 }
-
+.socials a {
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+}
 .socicon {
   width: 2rem;
   height: 2rem;
 }
-
 .socicon:hover{
   width: 2.5rem;
   height: 2.5rem; 
@@ -381,15 +378,18 @@ nav ul li {
   right: 0.5%;
   bottom: 3%;
   cursor: pointer;
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   overflow: hidden;
 }
-
 .up-arrow {
   width: 100%;
   height: auto;
+}
+.scroll-up:hover {
+  width: 3rem;
+  height: 3rem;
 }
 /* Scroll to top button ends */
 
