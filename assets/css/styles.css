@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 5rem;
 }
 
 /* CSS Resets */
@@ -169,7 +170,8 @@ nav ul li {
   max-width: 68.75rem;
   margin: auto;
   text-align: center;
-  margin-top: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .skill-header {
@@ -190,7 +192,6 @@ nav ul li {
 .projects {
   background-color: var(--bg-color);
   padding: 4rem 0;
-  margin-top: 4rem;
 }
 
 .project-pic {
@@ -281,7 +282,7 @@ nav ul li {
 
 /* Contacts section */
 .contact {
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 
 .contact h2 {
